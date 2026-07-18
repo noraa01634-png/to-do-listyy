@@ -37,7 +37,7 @@ addBtn.addEventListener("click", function() {
     taskInput.value = ""; 
 
     deleteBtn.addEventListener("click", function() {
-        list.remove(); 
+        li.remove(); 
         count--; 
         taskCount.textContent = count; 
         message.textContent = "Task Deleted";
